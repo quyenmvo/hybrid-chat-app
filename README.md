@@ -12,7 +12,9 @@ This is a chat application project developed for the Computer Networks course du
 ## System Architecture
 The system uses a hybrid architecture consisting of one center server and multiple peers. The center server keeps track of the online status of peers, while peers communicate directly with each other for messaging and file transfer.
 
+System architecture and main features:
 ![System Architecture](images/architecture.png)
+System architecture:
 ![System Architecture](images/detail_architecture.png)
 
 ## Center Server
