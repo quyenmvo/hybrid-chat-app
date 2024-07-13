@@ -12,8 +12,8 @@ This is a chat application project developed for the Computer Networks course du
 ## System Architecture
 The system uses a hybrid architecture consisting of one center server and multiple peers. The center server keeps track of the online status of peers, while peers communicate directly with each other for messaging and file transfer.
 
-![System Architecture](image/architecture.png)
-![System Architecture](image/detail architecture.png)
+![System Architecture](images/architecture.png)
+![System Architecture](images/detail_architecture.png)
 
 ## Center Server
 The center server monitors and updates the list of online peers. Peers need to ping the center server at regular intervals; otherwise, they will be disconnected.
