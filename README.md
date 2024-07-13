@@ -44,7 +44,7 @@ Replace `_PATH` with the path to the file you want to send.
 To receive a file, set the destination folder in the `GUI` class.
 
 ## Contributors
-- **Đỗ Huy Hoàng**: Report writing, file transfer code
 - **Võ Mạnh Quyền**: GUI coding, peer client code, peer server code
+- **Đỗ Huy Hoàng**: Report writing, file transfer code
 - **Trần Quang Thắng**: Center server code, peer server code
 - **Mã Hoàng Khôi Nguyên**: Report writing
