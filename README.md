@@ -22,3 +22,31 @@ To start the center server, run the following command:
 ```bash
 python center-server.py
 ```
+
+##Peer
+Each peer acts as both a server and a client when communicating with other peers.
+
+###Starting a Peer
+To start a peer, run the following command:
+```bash
+python client.py
+```
+Users can log in with their username and password. If they do not have an account, they can sign up for a new one.
+
+##File Transfer
+
+###Sender
+To send a file, type the following command in the chat box:
+```bash
+\file_transfer _PATH
+```
+Replace `_PATH` with the path to the file you want to send.
+
+###Receiver
+To receive a file, set the destination folder in the `GUI` class.
+
+## Contributors
+- **Đỗ Huy Hoàng**: Report writing, file transfer code
+- **Võ Mạnh Quyền**: GUI coding, peer client code, peer server code
+- **Trần Quang Thắng**: Center server code, peer server code
+- **Mã Hoàng Khôi Nguyên**: Report writing
